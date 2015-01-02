@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModuleInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>{PROJECT_XML_NAME}</Name>
+  <DefaultAction>resync</DefaultAction>
+  <ModuleAssemblies />
+  <Packages>
+    <PackageRef>
+      <Uri>http://protobuild.org/easilyoverlooked/MonoGame</Uri>
+      <GitRef>develop-eo</GitRef>
+      <Folder>MonoGame</Folder>
+    </PackageRef>
+  </Packages>
+</ModuleInfo>

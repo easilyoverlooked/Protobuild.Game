@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Name="{PROJECT_XML_NAME}" Path="{PROJECT_XML_NAME}" Type="App">
+  <Properties>
+    <CustomDefinitions>
+      <Platform Name="Windows">TRACE;WINDOWS</Platform>
+      <Platform Name="WindowsGL">TRACE;WINDOWS</Platform> 
+    </CustomDefinitions>
+  </Properties>
+  <References>
+    <Reference Include="MonoGame.Framework" />
+    <Reference Include="{PROJECT_XML_NAME}.Content" />
+    <Reference Include="{PROJECT_XML_NAME}.ThirdParty" />
+  </References>
+  <Files>
+
+    <!-- Common files -->
+    <Compile Include="Game.cs" />
+    <Compile Include="Program.cs" />
+
+    <!-- Windows Files -->
+    <Compile Include="Windows\Properties\AssemblyInfo.cs">
+      <Platforms>Windows</Platforms>
+      <Link>Properties\AssemblyInfo.cs</Link>
+    </Compile>
+
+  </Files>
+</Project>
