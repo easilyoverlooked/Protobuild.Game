@@ -23,5 +23,15 @@
       <Link>Properties\AssemblyInfo.cs</Link>
     </Compile>
 
+    <!-- Mac OS Files -->
+    <Compile Include="MacOS\Properties\AssemblyInfo.cs">
+      <Platforms>MacOS</Platforms>
+      <Link>Properties\AssemblyInfo.cs</Link>
+    </Compile>
+    <None Include="MacOS\Info.plist">
+      <Platforms>MacOS</Platforms>
+      <Link>Info.plist</Link>
+    </None>    
+
   </Files>
 </Project>
