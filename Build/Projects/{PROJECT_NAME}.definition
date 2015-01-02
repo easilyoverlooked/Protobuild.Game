@@ -3,7 +3,8 @@
   <Properties>
     <CustomDefinitions>
       <Platform Name="Windows">TRACE;WINDOWS</Platform>
-      <Platform Name="WindowsGL">TRACE;WINDOWS</Platform> 
+      <Platform Name="WindowsGL">TRACE;WINDOWS</Platform>
+      <Platform Name="MacOS">TRACE;MONOMAC</Platform>
     </CustomDefinitions>
   </Properties>
   <References>
