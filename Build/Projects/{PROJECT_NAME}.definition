@@ -14,7 +14,7 @@
   <Files>
 
     <!-- Common files -->
-    <Compile Include="Game.cs" />
+    <Compile Include="Game\Game.cs" />
     <Compile Include="Program.cs" />
 
     <!-- Windows Files -->
