@@ -6,7 +6,7 @@
   <Packages>
     <PackageRef>
       <Uri>http://protobuild.org/easilyoverlooked/MonoGame</Uri>
-      <GitRef>develop-eo</GitRef>
+      <GitRef>develop</GitRef>
       <Folder>MonoGame</Folder>
     </PackageRef>
   </Packages>
