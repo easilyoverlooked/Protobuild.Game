@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentProject Name="{PROJECT_XML_NAME}.Content">
-  <Source Include="{PROJECT_XML_NAME}.Content/source" Match="*.png" />
-  <Source Include="{PROJECT_XML_NAME}.Content/source" Match="*.spriteFont" />  
-  <Source Include="{PROJECT_XML_NAME}.Content/compiled/$(Platform)" Match="*.xnb" />
+  <Source Include="{PROJECT_XML_NAME}.Content/Source" Match="*.png" />
+  <Source Include="{PROJECT_XML_NAME}.Content/Source" Match="*.spriteFont" />  
+  <Source Include="{PROJECT_XML_NAME}.Content/Compiled/$(Platform)" Match="*.xnb" />
 </ContentProject>
